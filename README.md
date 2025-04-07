@@ -1,6 +1,6 @@
 # 📚 Proyecto Hibernate One-to-One
 
-> Este proyecto demuestra la implementación de una relación **One-to-One** entre entidades `Persona` y `Documento` usando **Java**, **Hibernate ORM**, y **MySQL**. Cada persona tiene un documento asociado. Desarrollado como parte del curso **DAW1 - Cibertec**.
+> Este proyecto demuestra la implementación de una relación **One-to-One** entre entidades `Persona` y `Documento` usando **Java**, **Hibernate ORM**, y **MySQL**. Cada persona tiene un documento asociado.
 
 ---
 
@@ -24,6 +24,7 @@ Esto se logra utilizando las anotaciones de **JPA** y la configuración correspo
 
 ## 🗂️ Estructura del Proyecto
 
+```
 📦src
  ┣ 📂main
  ┃ ┣ 📂java
@@ -33,7 +34,7 @@ Esto se logra utilizando las anotaciones de **JPA** y la configuración correspo
  ┃ ┗ 📂resources
  ┃   ┗ 📜META-INF/persistence.xml
  ┗ 📜pom.xml
-
+```
 ## 🧪 Base de Datos
 
 Ejecutar en la base de Datos lo siguiente
