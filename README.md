@@ -39,6 +39,7 @@ Esto se logra utilizando las anotaciones de **JPA** y la configuración correspo
 
 Ejecutar en la base de Datos lo siguiente
 
+```
 CREATE DATABASE IF NOT EXISTS one2one;
 
 use one2one;
@@ -74,3 +75,4 @@ INSERT INTO documento (tipo, fecha_expedicion, persona_id) VALUES
 ('Pasaporte', '2023-02-20', 5);
 
 ALTER TABLE documento CHANGE tipo tipoDocumento VARCHAR(50) NOT NULL;
+```
