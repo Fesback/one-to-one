@@ -6,7 +6,7 @@
 
 ## ⚙️ Tecnologías Utilizadas
 
-- ☕ Java 17
+- ☕ Java 22
 - 🧱 Hibernate ORM 6.x
 - 🐬 MySQL 8.x
 - 💼 Maven
